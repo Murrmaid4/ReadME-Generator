@@ -53,6 +53,9 @@ The tech used on this project include Node.js, npm inquirer, Javascript and Gith
 
 ## Images
 https://drive.google.com/file/d/1BJPCoz-CeV_AmfVPlFpgr9eWrytc5QJC/view
+
+this second video includes the Table of Contents functionality, I cut the first video off too soon 
+https://drive.google.com/file/d/1sfedCP5AmIoR1NQ0pAWUR4C3eLt7ug_B/view
  
 ## Tests
  no testing needed  
