@@ -145,6 +145,8 @@ ${data.install}
 ${data.usage}
  
 ## Questions
+  Any questions? Feel free to contact using links below;
+
   https://github.com/${data.github}
   
   Email: ${data.email}
@@ -157,7 +159,8 @@ ${data.usage}
   ---
   
 ## Technologies
- ${data.tech}
+
+The tech used on this project include ${data.tech}.
 
 ## Contributing
  ${data.contribution}

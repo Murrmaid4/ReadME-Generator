@@ -4,7 +4,7 @@
 
 ## Description
 
-This is a command line application that allows you to generate quality README's with a simple prompt, response using the npm inquirer
+This is a command line application that allows users to generate quality README's answering a few simple questions using the npm inquirer. 
 
 ## Table of Contents 
 
@@ -18,15 +18,18 @@ This is a command line application that allows you to generate quality README's 
   - [Tests](#tests)
 
 ## Installation
-  
 
+npm i
+ 
 ## Usage
-in the folder holding the javascript file open in the command line and run the code node index.js to receive the prompts
+Open and move into the develop folder of this README generator repo using the command line, then enter the code node index.js then follow the prompts
  
 ## Questions
-  https://github.com/murrmaid4
+  Any questions? Feel free to contact using links below;
 
-Email: pritchettb14@gmail.com
+  https://github.com/Murrmaid4
+  
+  Email: pritchettb14@gmail.com
   
 ## License
   Click here for more license info: (https://opensource.org/licenses/MIT)
@@ -42,15 +45,16 @@ Email: pritchettb14@gmail.com
   ---
   
 ## Technologies
- node, npm inquirer, javascript and github
+
+The tech used on this project include Node.js, npm inquirer, Javascript and Github.
 
 ## Contributing
- git pull request anytime
+ Git pull request or fork anytime 
 
 ## Images
-will add later
+https://drive.google.com/file/d/1BJPCoz-CeV_AmfVPlFpgr9eWrytc5QJC/view
  
 ## Tests
- no testing needed 
+ no testing needed  
 
  
