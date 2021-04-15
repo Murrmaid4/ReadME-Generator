@@ -133,14 +133,14 @@ ${data.description}
   - [Tests](#tests)
 
 ## Installation
- ${data.install}
- ---
-
+${data.install}
+ 
 ## Usage
 ${data.usage}
  
 ## Questions
   https://github.com/${data.github}
+  
   Email: ${data.email}
   
 ## License
