@@ -1,5 +1,6 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
+//this switch statement allows for different data to display depending on the answer to the license question - its the badge info thats later added in my generateMarkdown function (is also a clickable link)
 function renderLicenseBadge(license) {
      switch (license) {
        case "MIT":
@@ -15,7 +16,7 @@ function renderLicenseBadge(license) {
          return "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)"
          break;
          case "None":
-         return "no license"
+         return " "
          break;
        default:
          break;
@@ -25,6 +26,7 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
+//this switch statement allows for different data to display depending on the answer to the license question - its the link info thats later added in my generateMarkdown function
 function renderLicenseLink(license) {  
   switch (license) {
     case "MIT":
@@ -40,7 +42,7 @@ function renderLicenseLink(license) {
         return "(https://opensource.org/licenses/BSD-3-Clause)"
         break;
         case "None":
-        return ""
+        return " "
         break;
     default:
       break;
@@ -51,7 +53,7 @@ function renderLicenseLink(license) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-
+//this switch statement allows for different data to display depending on the answer to the license question - its the copyright info thats later added in my generateMarkdown function
   switch (license) {
     case "MIT":
       return `Copyright 
@@ -105,6 +107,9 @@ function renderLicenseSection(license) {
       THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.`
     
       break;
+      case "None":
+        return " "
+        break;
 
     default:
       break;
@@ -133,6 +138,7 @@ ${data.description}
   - [Tests](#tests)
 
 ## Installation
+
 ${data.install}
  
 ## Usage
@@ -163,6 +169,6 @@ ${data.img}
  ${data.test} 
 
  `}
-
+//this is the readme template and where I added the info coming from the inquirer prompts 
 
 module.exports = generateMarkdown;

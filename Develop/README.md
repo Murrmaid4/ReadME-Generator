@@ -18,9 +18,7 @@ This is a command line application that allows you to generate quality README's 
   - [Tests](#tests)
 
 ## Installation
-	
-npm i
- 
+  
 
 ## Usage
 in the folder holding the javascript file open in the command line and run the code node index.js to receive the prompts
